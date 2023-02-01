@@ -1,0 +1,46 @@
+*{
+     background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    text-align: center;
+    font-family: "Aboreto", cursive;
+    color: aliceblue;
+}
+.h1-sicarios{
+    margin: auto;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  table {
+    margin: auto;
+  }
+ 
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+   color: rgb(255, 230, 0);
+
+  }
+
+  .img-zoom:hover{
+    transform: scale(1.25);
+  }
+ 
